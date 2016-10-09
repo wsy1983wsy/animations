@@ -19,6 +19,7 @@
         <activity android:name=".TweeAnimationActivity"/>
         <activity android:name=".PropertyAnimationActivity"/>
         <activity android:name=".BallAnimationActivity"/>
+        <activity android:name=".ListAnimActivity"/>
     </application>
 
 </manifest>

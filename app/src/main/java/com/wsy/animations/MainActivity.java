@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     public void onTweeAnimClicked(View view) {
         Intent intent = new Intent(this, TweeAnimationActivity.class);
         startActivity(intent);
-        overridePendingTransition(android.R.anim.slide_out_right,android.R.anim.slide_in_left);
+        overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
     }
 
     public void onFrameAnimClicked(View view) {
@@ -79,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onPropertyAnimClicked(View view) {
         Intent intent = new Intent(this, PropertyAnimationActivity.class);
+        startActivity(intent);
+    }
+
+    public void onListAnimClicked(View view) {
+        Intent intent = new Intent(this, ListAnimActivity.class);
         startActivity(intent);
     }
 

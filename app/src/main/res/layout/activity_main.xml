@@ -34,4 +34,10 @@
         android:layout_height="wrap_content"
         android:onClick="onPropertyAnimClicked"
         android:text="属性动画"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onListAnimClicked"
+        android:text="ListView动画"/>
 </LinearLayout>
