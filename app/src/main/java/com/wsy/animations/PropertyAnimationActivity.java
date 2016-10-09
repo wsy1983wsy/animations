@@ -98,7 +98,6 @@ public class PropertyAnimationActivity extends Activity {
 
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.play(rotate).with(fadeInOut).after(moveIn);
-        ;
 
         animatorSet.setDuration(2000);
         animatorSet.start();

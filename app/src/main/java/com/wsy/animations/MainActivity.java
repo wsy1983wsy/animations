@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     public void onTweeAnimClicked(View view) {
         Intent intent = new Intent(this, TweeAnimationActivity.class);
         startActivity(intent);
+        overridePendingTransition(android.R.anim.slide_out_right,android.R.anim.slide_in_left);
     }
 
     public void onFrameAnimClicked(View view) {

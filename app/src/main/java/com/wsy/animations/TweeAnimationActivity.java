@@ -86,4 +86,10 @@ public class TweeAnimationActivity extends Activity {
         animationSet.addAnimation(AnimationUtils.loadAnimation(this, R.anim.twee_translate));
         imageView.startAnimation(animationSet);
     }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(android.R.anim.slide_out_right,android.R.anim.slide_in_left);
+    }
 }
